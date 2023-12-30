@@ -15,9 +15,17 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
   color: #444444;
+  /* background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: padding-box; */
 }
+
+/* .body img {Fta
+  height: 1000px;
+
+} */
 
 a {
   color: #4154f1;
@@ -45,6 +53,7 @@ h6 {
   margin-top: 60px;
   padding: 20px 30px;
   transition: all 0.3s;
+  
 }
 
 @media (max-width: 1199px) {
@@ -317,7 +326,7 @@ h6 {
 }
 
 .breadcrumb a:hover {
-  color: #51678f;
+  color: #020c20;
 }
 
 .breadcrumb .breadcrumb-item::before {
@@ -363,7 +372,6 @@ h6 {
 
 .logo img {
   max-height: 90px;
-  margin-left: -150px;
 }
 
 .logo span {
@@ -382,11 +390,6 @@ h6 {
   padding-left: 20px;
   /* Toggle Sidebar Button */
   /* Search Bar */
-}
-
-.header .logo img {
-  max-height: 90px;
-  margin-left: 0px;
 }
 
 .header .toggle-sidebar-btn {
